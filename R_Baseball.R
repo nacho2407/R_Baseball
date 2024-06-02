@@ -1,6 +1,3 @@
-# R_Baseball.R
-# Written by Jang Minjun(202255670)
-
 # Constants
 QUIT = 1
 MAX_INNINGS = 9

@@ -1,2 +1,4 @@
 # R_Baseball
-Simple CLI baseball game implemented with R
+2024 Spring Semester Basic Computer Programming
+
+Pusan National University

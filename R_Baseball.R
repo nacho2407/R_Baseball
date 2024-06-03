@@ -211,9 +211,9 @@ if(user_total != 0)
 if(computer_total != 0)
   cat("Computer batting average :", sum(computer_hits) / computer_total, '\n')
 
-plot = barplot(user_hits,
+hits_plot = barplot(user_hits,
         main = paste(user_team_name, "Hits"),
         ylab = "Hits",
         names.arg = paste0(as.character(1:9), '회'))
 
-text(x = plot, y = user_hits, label = user_hits, pos = 3)
+text(x = hits_plot, y = user_hits, label = user_hits, pos = 3)
